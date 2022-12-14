@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Login Simples</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="">
+            <h3>SIGN IN</h3>
+            <div class="container-input">
+                <input type="email" id="email" placeholder="Mail">
+                <i data-feather="mail"></i>
+            </div>
+            <div class="container-input">
+                <input type="password" id="password" placeholder="Password">
+                <i data-feather="lock"></i>
+            </div>
+            <div class="options-container">
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remember" id="remember" value="yes">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="https://www.google.com.br">Reset Password</a>
+            </div>
+            <input class="btn-primary" type="submit" value="Sign In">
+            <p>or Sign in With</p>
+            <div class="container-social-icons">
+                <div class="container-icons">
+                    <i data-feather="facebook"></i>
+                </div>
+                <div class="container-icons">
+                    <i data-feather="mail"></i>
+                </div>
+                <div class="container-icons">
+                    <i data-feather="twitter"></i>
+                </div>
+            </div>
+            <p>Do not have an account? <a href="">Sign Up now</a></p>
+        </form>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
