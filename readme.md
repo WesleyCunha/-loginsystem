@@ -1,4 +1,4 @@
-# Projeto Formulario de login
+# Projeto Formulário de login
 
 Visualiza projeto ao vivo [clique aqui](https://wesleycunha.github.io/loginsystem/)
 
